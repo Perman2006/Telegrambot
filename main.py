@@ -5,7 +5,7 @@ from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_applicati
 from aiohttp import web
 
 # Bot tokenni Render Environment variables ichidan olish
-BOT_TOKEN = os.environ.get("7755603456:AAHEMbxPsHFF7G8MScUnVzXS2s0ep82kdc8")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 # Bot va Dispatcher yaratish
 bot = Bot(BOT_TOKEN)
